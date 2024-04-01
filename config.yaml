@@ -1,0 +1,42 @@
+api_hash:
+api_id:
+
+file_formats:
+  audio:
+  - all
+  document:
+  - all
+  video:
+  - all
+media_types:
+- audio
+- photo
+- video
+- document
+- voice
+- video_note
+# in linux please use /
+# save_path: E:\github\telegram_media_downloader
+proxy:
+  scheme: socks5
+  hostname: 127.0.0.1
+  port: 7891
+  username:
+  password:
+
+language: ZH
+max_download_task: 5
+date_format: '%Y-%m-%d'
+
+chat:
+- chat_id:
+  last_read_message_id: 20
+file_num: 19
+
+file_name_prefix:
+- caption
+- file_name
+
+file_path_prefix:
+- chat_title
+- media_datetime

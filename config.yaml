@@ -30,8 +30,8 @@ date_format: '%Y-%m-%d'
 
 chat:
 - chat_id:
-  last_read_message_id: 20
-file_num: 19
+  last_read_message_id: 0
+file_num: 0
 
 file_name_prefix:
 - caption
